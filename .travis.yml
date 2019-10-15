@@ -7,5 +7,5 @@ install:
   - sudo apt update
   - sudo apt-get install -y libcurl4-openssl-dev
 script:
-  - gcc Hello.c -o hello -lcurl
-    - ./Hello
+  - gcc hello.c -o hello -lcurl
+    - ./hello
